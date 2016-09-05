@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>promo</display-name>
+	
+	<servlet>
+		<display-name>PromoConfigController</display-name>
+		<servlet-name>PromoConfigController</servlet-name>
+		<servlet-class>org.cgi.com.servlet.PromoConfigController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PromoConfigController</servlet-name>
+		<url-pattern>/promoConfig</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<display-name>AutoDiscallController</display-name>
+		<servlet-name>AutoDiscallController</servlet-name>
+		<servlet-class>org.cgi.com.servlet.AutoDiscallController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutoDiscallController</servlet-name>
+		<url-pattern>/autodiscall</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<display-name>CreditCalcController</display-name>
+		<servlet-name>CreditCalcController</servlet-name>
+		<servlet-class>org.cgi.com.servlet.CreditCalcController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreditCalcController</servlet-name>
+		<url-pattern>/creditcalc</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<display-name>MonitoringController</display-name>
+		<servlet-name>MonitoringController</servlet-name>
+		<servlet-class>org.cgi.com.servlet.MonitoringController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MonitoringController</servlet-name>
+		<url-pattern>/monitoring</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<display-name>AutoDiscallRedirController</display-name>
+		<servlet-name>AutoDiscallRedirController</servlet-name>
+		<servlet-class>org.cgi.com.servlet.AutoDiscallRedirController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutoDiscallRedirController</servlet-name>
+		<url-pattern>/disqualrules</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<display-name>MonitoringRedirController</display-name>
+		<servlet-name>MonitoringRedirController</servlet-name>
+		<servlet-class>org.cgi.com.servlet.MonitoringRedirController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MonitoringRedirController</servlet-name>
+		<url-pattern>/monitoringRule</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<display-name>CreditCalcRedirController</display-name>
+		<servlet-name>CreditCalcRedirController</servlet-name>
+		<servlet-class>org.cgi.com.servlet.CreditCalcRedirController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreditCalcRedirController</servlet-name>
+		<url-pattern>/credircalcRule</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+	<!-- <welcome-file>remediationTempCreate.jsp</welcome-file> -->
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

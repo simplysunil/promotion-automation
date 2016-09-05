@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@172.22.7.127:1748/DVOPS3DB</property>
+        <property name="hibernate.connection.username">subspromoadmin</property>
+        <property name="hibernate.connection.password">admin</property>
+        <property name="show_sql">true</property>		
+        <property name="hbm2ddl.auto">update</property>
+        <mapping class="org.cgi.com.model.PromoConfig" /> 
+        <mapping class="org.cgi.com.model.AutoDiscall" /> 
+        <mapping class="org.cgi.com.model.CreditCalc" /> 
+        <mapping class="org.cgi.com.model.Monitoring" /> 
+    </session-factory>
+</hibernate-configuration>

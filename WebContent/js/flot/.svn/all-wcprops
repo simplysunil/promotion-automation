@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/colorado/!svn/ver/3717/trunk/sprint2/partnerintegrity/WebContent/js/flot
+END
+flot.categories.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/colorado/!svn/ver/3717/trunk/sprint2/partnerintegrity/WebContent/js/flot/flot.categories.min.js
+END
+flot.crosshair.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/colorado/!svn/ver/3717/trunk/sprint2/partnerintegrity/WebContent/js/flot/flot.crosshair.min.js
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/colorado/!svn/ver/3717/trunk/sprint2/partnerintegrity/WebContent/js/flot/index.html
+END
+flot.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/colorado/!svn/ver/3717/trunk/sprint2/partnerintegrity/WebContent/js/flot/flot.min.js
+END
+flot.symbol.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/colorado/!svn/ver/3717/trunk/sprint2/partnerintegrity/WebContent/js/flot/flot.symbol.min.js
+END
+flot.pie.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/colorado/!svn/ver/3717/trunk/sprint2/partnerintegrity/WebContent/js/flot/flot.pie.min.js
+END
+flot.resize.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/colorado/!svn/ver/3717/trunk/sprint2/partnerintegrity/WebContent/js/flot/flot.resize.min.js
+END
